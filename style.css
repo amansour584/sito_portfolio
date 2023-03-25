@@ -1,0 +1,51 @@
+@font-face {
+  font-family: GreatVibes;
+  src: url("/static_files/fonts/gv.ttf");
+}
+
+.greatVibesFont {
+  font-family: GreatVibes;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 500px;
+  position: absolute;
+  transition: all 300ms linear;
+  transform-origin: 0% 0%;
+  margin-top: 0%;
+}
+
+@media screen and (max-width: 956px) {
+  .navbar-brand img {
+    width: 100%;
+    max-width: 100px;
+    position: relative;
+  }
+}
+
+img.consize {
+  transform: translateY(-20px) scale(0.1);
+}
+#mainNav {
+  transition: background 300ms linear;
+}
+
+.blur {
+  display: flex;
+  height: 10vh;
+  background-color: black;
+  position: relative;
+  opacity: 50%;
+}
+.dirt {
+  background: url(https://cdn.wallpapersafari.com/78/76/L0Hsea.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  transform: rotate(180deg);
+  height: 110vh;
+}
+
+audio {
+  display: none;
+}
